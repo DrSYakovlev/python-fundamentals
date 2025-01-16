@@ -44,7 +44,7 @@ else:
 
 
 # Comprehensions
-a = [i for i in types]
+a = [i for i in types] 
 b = (i for i in types)
 c = {i for i in types if isinstance(i, typing.Hashable)}
 d = {str(i): i for i in types}
